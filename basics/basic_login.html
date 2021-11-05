@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+
+<hmtl>
+
+    <body>
+
+        <script>
+
+            let username = prompt("Who's there?");
+
+            if (username == "admin") {
+                let password = prompt("Password?");
+                
+                if (password == "TheMaster") {
+                    alert("Welcome Admin");
+                };
+
+            } else if (username == "" || username == null){
+                alert("Cancelled");
+
+            } else {
+                alert("I don't know you.");
+            };
+
+        </script>
+
+    </body>
+
+</hmtl>
